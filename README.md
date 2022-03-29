@@ -10,4 +10,4 @@ Obtendo:
 ![matrizSmith](matrizSmith.PNG)
 
 Meu Output foi:
-![Resultados](results.png)
+![Resultados](imagem_2022-03-29_112319.png)
