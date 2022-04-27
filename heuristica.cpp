@@ -31,6 +31,7 @@ int main() {
   vector<vector<items>> H(n + 1, vector<items>(m + 1));
 
   items maior_valor;
+  
   for (int i = 0; i < n + 1; i++) {
     for (int j = 0; j < m + 1; j++) {
       if (i == 0 || j == 0) {
@@ -60,13 +61,14 @@ int main() {
       }
     }
   }
+  cout << maior_valor.val << endl;
   // printa matriz
-  for (int i = 0; i < n + 1; i++) {
-    for (int j = 0; j < m + 1; j++) {
-      cout << H[i][j].val << "  ";
-    }
-    cout << endl;
-  }
+  // for (int i = 0; i < n + 1; i++) {
+  //   for (int j = 0; j < m + 1; j++) {
+  //     cout << H[i][j].val << "  ";
+  //   }
+  //   cout << endl;
+  // }
   cout << endl;
 
   items atual;
